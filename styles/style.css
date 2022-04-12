@@ -83,7 +83,7 @@ p{
   grid-row: 3;
   color: rgb(37, 129, 190);
 }
-p{
+footer p{
   font-size: 12px;  
   text-transform: uppercase;
   word-spacing: 5px;
