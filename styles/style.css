@@ -1,10 +1,94 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.fondo{
+  width:100vw;
+  height: 275px;
+  background-image:linear-gradient(#76a2c7,#2b4861);
+}
+.container{
+  position:absolute;  
+  display: grid;
+  text-align: start;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  width:800px;
+  height:500px;
+  left: 350px;
+  top:100px; 
+}
+.phones{
+  display: grid;
+   width:275px;
+   height:450px;
+  grid-column: 1;
+  grid-row: 1/4;
+}
+.img-insta{
+  width: 270px;
+  height: 65px;
+}
+.container2{
+  display: grid;
+  width: 400px;
+  height: 10px;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  grid-column: 2;
+  grid-row: 1; 
+}
+.container3{
+  font-size: 16px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: -50px;
+  width: 350px;
+  height:300px;
+  grid-column: 2;
+  grid-row: 2/3;
+  background-image:url(/images/frame.png) ;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.logIn{
+ width: 70px;
+ height: 35px;
+ grid-column: 2;
+ border-radius: 5px;
+ background-image: linear-gradient(blue yellow);
+ background-image: url(/images/img-home.png);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+h1{
+  font-size: 20px;
+  color: rgb(45, 45, 131);
+  margin: 0px;;
+}
+p{
+  font-size: 13px;
+}
+.get-app{
+  width: 130px;
+  height: 45px;
+  margin: 5px;
+}
+.footer{
+ text-align: center;
+  grid-column: 1/4;
+  grid-row: 3;
+  color: rgb(37, 129, 190);
+}
+p{
+  font-size: 12px;  
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+span{
+  
+  color: rgb(148, 148, 148);
 }
