@@ -75,7 +75,7 @@ p{
 .get-app{
     width: 130px;
     height: 45px;
-    margin: 5px;
+    margin:5px 5px 0 0;
 }
 .footer{
   margin-top: 40px;
@@ -87,8 +87,7 @@ p{
     font-weight: bold;
     font-size: 9px;
     word-spacing: 10px;
-    width: 650px;
-   
+    width: 650px;   
 }
 
 span{
