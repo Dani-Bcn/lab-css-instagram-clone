@@ -20,8 +20,8 @@ body {
 }
 .phones{
   display: grid;
-   width:275px;
-   height:450px;
+  width:275px;
+  height:450px;
   grid-column: 1;
   grid-row: 1/4;
 }
@@ -78,7 +78,7 @@ p{
   margin: 5px;
 }
 .footer{
- text-align: center;
+  text-align: center;
   grid-column: 1/4;
   grid-row: 3;
   color: rgb(37, 129, 190);
@@ -89,6 +89,5 @@ p{
   word-spacing: 5px;
 }
 span{
-  
-  color: rgb(148, 148, 148);
+    color: rgb(148, 148, 148);
 }
