@@ -49,18 +49,18 @@ body {
   height:300px;
   grid-column: 2;
   grid-row: 2/3;
-  background-image:url(/images/frame.png) ;
+  background-image:url("../images/frame.png") ;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 5px;
-}
+} 
 .logIn{
   width: 70px;
   height: 35px;
   grid-column: 2;
   border-radius: 5px;
   background-image: linear-gradient(blue yellow);
-  background-image: url(/images/img-home.png);
+  background-image: url("../images/img-home.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
